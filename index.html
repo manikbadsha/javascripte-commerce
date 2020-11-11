@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>React Project</title>
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/all.css" integrity="sha384-3AB7yXWz4OeoZcPbieVW64vVXEwADiYyAEhwilzWsLw+9FgqpyjjStpPnpBO8o8S" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   
+<nav class="navbar">
+    <div class="navber-center">
+        <span class="nav-icon">
+            <i class="fas fa-bars"></i>
+        </span>
+        <h1>Manik Badsha</h1>
+
+        <div class="cart-btn">
+            <span class="nav-icon">
+                <i class="fas fa-cart-plus"></i>
+            </span>
+            <div class="cart-item">0</div>
+        </div>
+    </div>
+</nav>
+
+
+
+<header class="hero">
+    <div class="banner">
+        <h1 class="banner-title">Furniture Collection</h1>
+        <button class="banner-btn">Shop Now</button>
+    </div>
+
+</header>
+
+
+<!-- Product -->
+<section class="products">
+    <div class="setion-title">
+        <h2>Our Products</h2>
+    </div>
+    <div class="product-center">
+        <artical class="product">
+            <div class="img-container">
+                <img src="img/product-1.jpeg" alt="" class="product-img">
+                <button class="product-btn" data-id="1"><i class="fas fa-shopping-cart"></i>
+                add to cart
+                </button>
+            </div>
+            <h3>queen bed</h3>
+            <h4>$16</h4>
+        </artical>          
+    </div>
+</section>
+
+
+
+<!-- Cart -->
+
+<div class="cart-overlay">
+    <div class="cart">
+        <span class="close-item">
+            <i class="fas fa-window-close"></i>
+
+        </span>
+        <h2>Your Cart</h2>
+        <div class="cart-content">
+            <!-- Cart ITEM -->
+            <!-- <div class="cart-items">
+                
+
+            </div> -->
+
+            
+        </div>
+        <div class="cart-footer">
+            <h3>Your Total: $ <span class="cart-total">0</span></h3>
+            <button class="clear-cart banner-btn">clear cart</button>
+        </div>
+    </div>
+</div>
+
+
+
+
+    <script src="app.js"></script>
+    
+</body>
+</html>
